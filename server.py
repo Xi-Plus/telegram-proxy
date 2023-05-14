@@ -67,7 +67,7 @@ async def server():
 
 def main():
     tgClient = TelegramClient(None, TG_API_ID, TG_API_HASH).start(bot_token=TG_BOT_TOKEN)
-	tgClient.loop.run_until_complete(server())
+    tgClient.loop.run_until_complete(server())
 
 
 if __name__ == '__main__':
